@@ -1,1 +1,2 @@
 # WEB-Marketing-Page
+I am a full stack web developer student, and I am doing my first build week project.  I have to create two marketing pages. One for the main webpage, and the other one about all my team work.  The topic of my project is creating a website about a expat journal.
