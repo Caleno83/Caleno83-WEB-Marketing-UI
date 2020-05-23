@@ -1,0 +1,112 @@
+main {
+    margin: -7px 0 -7px 0;
+    background-color: @background-container;
+    .container {
+        margin: 10px;
+        padding: 60px;
+
+     .top-container {
+       
+        .text-content-main {
+            padding-top: 20px;
+            p {
+                text-align: center;
+                .font-style-top ();
+            }
+        }
+            
+        .bottom {
+            .button-signup (center, 5px);
+                
+               a {
+                    .font-style-top ();
+                        text-decoration: none;
+                        color: @font-signup;
+                     &:hover {
+                        color: #7e8287;
+                    }
+                }
+            }
+        }
+        
+        .title-middle-container {
+            
+         h2 {
+                font-size: @font-subtitle-size;
+                font-weight: @font-bold;
+                margin: 120px 0 80px 15px;
+            }
+        }
+        
+        .middle-container {
+         width: 100%;
+         margin: 0 20px 0 20px;
+         display: flex;
+        flex-direction: row-reverse;
+            
+        .img-content {
+            margin: 0 40px 0 100px;
+            
+                img {
+                    width: 95%;
+                    height: 70%;
+                    &:hover {
+                        opacity: 80%;
+                    }
+                }
+        }
+
+        .text-content {
+            width: 400%;
+            margin-top:8px;
+                
+            h3 {
+                .font-style-subtitles();
+            }
+            p {
+                .font-style-paragraphs();
+                    width: 100%;
+            }
+        }
+           
+    }
+       
+        .last-container {
+            width: 100%;
+            margin: 0 20px 0 20px;
+            display: flex;
+
+            .img-content {
+
+                img {
+                     width: 70%;
+                     height: 80%;
+                     &:hover {
+                        opacity: 80%;
+                    }
+                }
+             }
+
+            .text-content {
+                width: 180%;
+                margin: 20px 30px 0 -100px;
+                
+                h3 {
+                    .font-style-subtitles();
+                }
+
+                p {
+                    .font-style-paragraphs();
+                    width: 95%;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
