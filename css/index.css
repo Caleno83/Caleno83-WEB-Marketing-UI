@@ -155,9 +155,24 @@ header {
   align-items: center;
   padding: 50px 70px 50px 90px;
 }
+@media (max-width: 500px) {
+  header {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+}
 header h1 {
   font-size: 2.8rem;
   font-weight: bold;
+}
+@media (max-width: 500px) {
+  header h1 {
+    margin-top: 30px;
+    font-size: 3.8rem;
+  }
 }
 header .bottom {
   padding: 8px;
@@ -167,6 +182,12 @@ header .bottom {
   border-radius: 5px;
   background-color: black;
   text-align: center;
+}
+@media (max-width: 500px) {
+  header .bottom {
+    width: 30%;
+    margin-top: 10px;
+  }
 }
 header .bottom a {
   text-decoration: none;
@@ -279,10 +300,25 @@ footer {
   align-items: center;
   padding: 20px 80px 20px 80px;
 }
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    heigth: 150px;
+  }
+}
 footer .footer-sentence h2 {
   font-weight: 2000;
   font-size: 2.1rem;
   font-weight: bold;
+}
+@media (max-width: 500px) {
+  footer .footer-sentence h2 {
+    width: 100%;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
 footer .about-us a {
   color: black;
