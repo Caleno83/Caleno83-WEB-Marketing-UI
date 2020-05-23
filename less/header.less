@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 70px 50px 90px;
+    padding: 60px 70px 50px 90px;
 
    @media @mobile {
         height: 150px;
@@ -14,12 +14,17 @@ header {
         padding: 20px;
         padding-bottom: 40px;
     }
+    @media @tablet {
+        padding-top: 40px;
+    }
+
+    
 
     h1 {
         font-size: 2.8rem;
         font-weight: @font-bold;
         @media @mobile {
-           margin-top: 30px;
+           margin: -10px 0 10px 0;
            font-size: 3.8rem;
         }
     }
@@ -32,8 +37,11 @@ header {
        text-align: center;
        @media @mobile {
             width: 30%;
-            margin-top: 10px;
-            
+            margin-top: 15px;
+        }
+        @media @tablet {
+            width: 30%;
+            margin-top: 5px;
         }
        
 
