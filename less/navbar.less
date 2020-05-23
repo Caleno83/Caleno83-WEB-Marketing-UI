@@ -7,18 +7,24 @@
     padding: 2%;
 
     h1{
-            width: 35%;
-            color: white;
+        width: 35%;
+        color: @nav-font-color;
         }
 
     nav{
-        width: 50%;
+        width: 65%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
+
+        @media (min-width: 500px){
+            justify-content: space-around;
+            width: 45%
+        }
 
         a{
             text-decoration: none;
+            padding: 1.5% 3%;
         }
         a:visited{
             color: white;
@@ -26,10 +32,9 @@
     }
 
     #signup{
-        border: .06rem solid black;
-        padding: 3%;
-        background-color: #d64045;
-        border-radius: 15px;
+        border: .02rem solid black;
+        background-color: @signup;
+        border-radius: 6px;
     }
     
 }

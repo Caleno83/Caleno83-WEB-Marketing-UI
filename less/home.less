@@ -2,8 +2,69 @@
     margin: auto;
     display: flex;
 
-
 }
 img{
     width: 100%;
+}
+
+body{
+
+    @media @desktop{
+        margin: auto;
+    }
+
+    background-color: @nav-font-color ;
+
+    .welcome{
+        font-size: 1.2rem;
+        color: @font-color;
+    }
+
+    .text-container{
+        margin: 1%;
+
+        @media @tablet{
+            margin: 3%
+        }
+
+        @media @desktop{
+            margin: 5%
+        }
+    }
+
+    .feature-container{
+        @media @tablet{
+            display: flex;
+            margin: 3%;
+        }
+        
+        
+        color: @nav-font-color;
+
+        .end-feat{
+            background-color: @head-color;
+            padding: 5%;
+        }
+
+        .mid-feat{
+            background-color: @sec-color;
+            padding: 5%;
+        }
+
+        .end-feat, .mid-feat{
+            @media @tablet{
+                padding: 2.5%;
+            }
+        }
+    }
+
+    footer{
+
+        p{
+            text-align: center;
+            padding: 12%;
+            background-color: @footer-color;
+        }
+        
+    }
 }
