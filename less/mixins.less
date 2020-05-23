@@ -1,0 +1,29 @@
+//mixins for styling
+.font-style-top () {
+    font-size: @font-top-size;
+    font-weight: @font-bold;
+}
+
+.font-style-subtitles() {
+    font-size: @font-subtitle-size;
+    font-weight: @font-bold;
+    margin-bottom: 10px;
+}
+
+.font-style-paragraphs() {
+    font-size: @font-paragraph-size;
+    line-height: 23px;
+}
+
+//parametric mixins for buttons
+
+.button-header ( @p, @w, @h ) {
+    padding: @p;
+    width: @w;
+    height: @h;
+}
+
+.button-signup (@align, @m) {
+    text-align: @align;
+    margin: @m;
+}
