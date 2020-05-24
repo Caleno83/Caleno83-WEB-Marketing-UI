@@ -1,7 +1,5 @@
-.welcome-section{
-    margin: auto;
-    display: flex;
-
+.welcome{
+    margin-top: 80px;
 }
 img{
     width: 100%;
@@ -9,12 +7,17 @@ img{
 
 body{
 
+    font-family: @main-font;
+
     .tag{
         text-align: center;
         color: @main-font-color;
         text-transform: uppercase;
         font-size: 3rem;
-        padding: 1%;
+    }
+
+    i{
+        padding: 10px;
     }
 
     @media @desktop{
@@ -52,15 +55,27 @@ body{
     .feature-container{
         color: @main-white;
         text-align: center;
+        font-size: 1.2rem;
 
         h2{
             font-size: 1.5rem;
-            padding-bottom: 4%;
+            font-weight: 600;
+        }
+
+        p{
+            font-style: italic;
+            font-weight: 500;
         }
 
         @media @tablet{
             display: flex;
             margin: 3%;
+            font-size: 1rem;
+
+            .end-feat{
+                margin: 15px 0;
+            }
+            
         }
         
         .end-feat{

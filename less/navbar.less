@@ -2,27 +2,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: @main-white;
     font-size: 1rem;
-    padding: 2%;
+    padding: 15px;
     border-bottom: 1px solid rgb(223, 223, 223);
+    font-family: @main-font;
 
     h1{
-        width: 30%;
+        
         color: @nav-blue;
+        font-weight: 800;
         }
 
     nav{
-        width: 75%;
+        width: 80%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        max-width: 450px;
+        max-width: 640px;
 
 
-        @media @mobile{
-            justify-content: space-around;
-        }
 
         a{
             text-decoration: none;
@@ -38,6 +40,8 @@
         background-color: @sec-color;
         border-radius: 6px;
         color: @main-white;
+        margin:2px;
+        font-weight: 600;
     }
     
 }
