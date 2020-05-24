@@ -2,24 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: @head-color;
-    font-size: 1.3rem;
+    background-color: @main-white;
+    font-size: 1rem;
     padding: 2%;
+    border-bottom: 1px solid rgb(223, 223, 223);
 
     h1{
-        width: 35%;
-        color: @nav-font-color;
+        width: 30%;
+        color: @nav-blue;
         }
 
     nav{
-        width: 65%;
+        width: 75%;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        max-width: 450px;
 
-        @media (min-width: 500px){
+
+        @media @mobile{
             justify-content: space-around;
-            width: 45%
         }
 
         a{
@@ -27,14 +29,15 @@
             padding: 1.5% 3%;
         }
         a:visited{
-            color: white;
+            color: @nav-blue;
         }
     }
 
     #signup{
-        border: .02rem solid black;
-        background-color: @signup;
+        border: 1px solid rgb(219, 219, 219);
+        background-color: @sec-color;
         border-radius: 6px;
+        color: @main-white;
     }
     
 }

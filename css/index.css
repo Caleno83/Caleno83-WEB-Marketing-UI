@@ -130,24 +130,25 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #355070;
-  font-size: 1.3rem;
+  background-color: #F7F7FF;
+  font-size: 1rem;
   padding: 2%;
+  border-bottom: 1px solid #dfdfdf;
 }
 .head h1 {
-  width: 35%;
-  color: #F7F7FF;
+  width: 30%;
+  color: #2164FF;
 }
 .head nav {
-  width: 65%;
+  width: 75%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 450px;
 }
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .head nav {
     justify-content: space-around;
-    width: 45%;
   }
 }
 .head nav a {
@@ -155,12 +156,13 @@ table {
   padding: 1.5% 3%;
 }
 .head nav a:visited {
-  color: white;
+  color: #2164FF;
 }
 .head #signup {
-  border: 0.02rem solid black;
+  border: 1px solid #dbdbdb;
   background-color: #E0607E;
   border-radius: 6px;
+  color: #F7F7FF;
 }
 .welcome-section {
   margin: auto;
@@ -172,14 +174,27 @@ img {
 body {
   background-color: #F7F7FF;
 }
+body .tag {
+  text-align: center;
+  color: #383E41;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 1%;
+}
 @media (min-width: 1020px) {
   body {
     margin: auto;
   }
 }
+body #active-page {
+  border-bottom: 2px solid #2164FF;
+}
+body .hero-pic {
+  margin-top: 3%;
+}
 body .welcome {
   font-size: 1.2rem;
-  color: #352D39;
+  color: #383E41;
 }
 body .text-container {
   margin: 1%;
@@ -196,6 +211,11 @@ body .text-container {
 }
 body .feature-container {
   color: #F7F7FF;
+  text-align: center;
+}
+body .feature-container h2 {
+  font-size: 1.5rem;
+  padding-bottom: 4%;
 }
 @media (min-width: 760px) {
   body .feature-container {
@@ -204,7 +224,7 @@ body .feature-container {
   }
 }
 body .feature-container .end-feat {
-  background-color: #355070;
+  background-color: #3472FF;
   padding: 5%;
 }
 body .feature-container .mid-feat {
@@ -215,23 +235,26 @@ body .feature-container .mid-feat {
   body .feature-container .end-feat,
   body .feature-container .mid-feat {
     padding: 2.5%;
+    flex: 1 1 0;
   }
 }
 body footer p {
   text-align: center;
   padding: 12%;
-  background-color: #F2D0A4;
+  background-color: #F7F7FF;
 }
 .team {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2%;
+  max-width: 800px;
+  margin: auto;
 }
 .team img {
-  margin: ;
   width: 160px;
   border-radius: 50%;
+  margin: 30px 15px 5px 15px ;
 }
 .team p {
   text-align: center;
