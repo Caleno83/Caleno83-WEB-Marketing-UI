@@ -165,87 +165,89 @@ table {
   margin: 2px;
   font-weight: 600;
 }
-.welcome {
-  margin-top: 80px;
-}
-img {
-  width: 100%;
-}
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #F7F7FF;
 }
-body .tag {
+body .main-container {
+  max-width: 1300px;
+  margin: auto;
+}
+body .main-container .welcome {
+  margin-top: 80px;
+  font-size: 1.2rem;
+  color: #383E41;
+}
+body .main-container .welcome img {
+  width: 100%;
+}
+body .main-container .tag {
   text-align: center;
   color: #383E41;
   text-transform: uppercase;
   font-size: 3rem;
 }
-body i {
+body .main-container i {
   padding: 10px;
 }
 @media (min-width: 1020px) {
-  body {
+  body .main-container {
     margin: auto;
   }
 }
-body #active-page {
+body .main-container #active-page {
   border-bottom: 2px solid #2164FF;
 }
-body .hero-pic {
+body .main-container .hero-pic {
   margin-top: 3%;
 }
-body .welcome {
-  font-size: 1.2rem;
-  color: #383E41;
-}
-body .text-container {
+body .main-container .text-container {
   margin: 1%;
 }
 @media (min-width: 760px) {
-  body .text-container {
+  body .main-container .text-container {
     margin: 3%;
   }
 }
 @media (min-width: 1020px) {
-  body .text-container {
+  body .main-container .text-container {
     margin: 5%;
   }
 }
-body .feature-container {
+body .main-container .feature-container {
   color: #F7F7FF;
   text-align: center;
   font-size: 1.2rem;
 }
-body .feature-container h2 {
+body .main-container .feature-container h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-body .feature-container p {
+body .main-container .feature-container p {
   font-style: italic;
   font-weight: 500;
 }
 @media (min-width: 760px) {
-  body .feature-container {
+  body .main-container .feature-container {
     display: flex;
     margin: 3%;
     font-size: 1rem;
   }
-  body .feature-container .end-feat {
+  body .main-container .feature-container .end-feat {
     margin: 15px 0;
   }
 }
-body .feature-container .end-feat {
+body .main-container .feature-container .end-feat {
   background-color: #3472FF;
   padding: 5%;
 }
-body .feature-container .mid-feat {
+body .main-container .feature-container .mid-feat {
   background-color: #E0607E;
   padding: 5%;
 }
 @media (min-width: 760px) {
-  body .feature-container .end-feat,
-  body .feature-container .mid-feat {
+  body .main-container .feature-container .end-feat,
+  body .main-container .feature-container .mid-feat {
     padding: 2.5%;
     flex: 1 1 0;
   }
