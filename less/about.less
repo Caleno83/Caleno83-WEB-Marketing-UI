@@ -7,12 +7,23 @@ main {
                 font-size: 4rem;
                 text-align: center;
                 padding-bottom: 40px;
+                font-weight: bold;
+
+                @media @mobile {
+                    font-size: 2.8rem;
+                }
             }
          }
         
              p {
                 font-size: 2.5rem;
-            text-align: center;
+                text-align: center;
+
+                @media @mobile {
+                    width: 135%;
+                    margin-left: -50px;
+                    line-height: 28px;
+                }
         }
 
     }
@@ -23,7 +34,11 @@ main {
         justify-content: space-around;
         text-align: center;
         flex-wrap: wrap;
-        padding: 50px 0 90px 20px;
+        padding: 50px 0 90px 20px; 
+
+        @media @mobile {
+            padding-top: 20px;
+        }
         
 
         .team-section {
@@ -42,7 +57,8 @@ main {
                   height: 70%;
                   border-radius: 50%;
                   border: 1px solid black;
-                }
+                 }
+                
             }
 
             .team-info {

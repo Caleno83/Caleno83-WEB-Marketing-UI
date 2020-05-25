@@ -554,10 +554,23 @@ main .about-section .title-section h1 {
   font-size: 4rem;
   text-align: center;
   padding-bottom: 40px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  main .about-section .title-section h1 {
+    font-size: 2.8rem;
+  }
 }
 main .about-section p {
   font-size: 2.5rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  main .about-section p {
+    width: 135%;
+    margin-left: -50px;
+    line-height: 28px;
+  }
 }
 main .all-team {
   display: flex;
@@ -565,6 +578,11 @@ main .all-team {
   text-align: center;
   flex-wrap: wrap;
   padding: 50px 0 90px 20px;
+}
+@media (max-width: 500px) {
+  main .all-team {
+    padding-top: 20px;
+  }
 }
 main .all-team .team-section {
   padding: 40px 0 0 0;
