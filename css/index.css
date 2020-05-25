@@ -282,7 +282,7 @@ main .container .title-middle-container h2 {
 }
 @media (max-width: 500px) {
   main .container .title-middle-container h2 {
-    margin: 40px 0 40px -25px;
+    margin: 10px 0 40px -25px;
     text-align: center;
     font-size: 1.8rem;
     width: 120%;
@@ -295,7 +295,7 @@ main .container .middle-container {
   flex-direction: row-reverse;
 }
 main .container .middle-container .img-content {
-  margin: 0 40px 0 100px;
+  margin: 0 60px 0 100px;
 }
 main .container .middle-container .img-content img {
   width: 95%;
@@ -314,14 +314,14 @@ main .container .middle-container .img-content img:hover {
 }
 @media (max-width: 800px) {
   main .container .middle-container .img-content img {
-    width: 115%;
+    width: 118%;
     height: 50%;
-    margin-left: -95px;
+    margin-left: -90px;
   }
 }
 @media (max-width: 500px) {
   main .container .middle-container .img-content img {
-    width: 165%;
+    width: 180%;
     height: 100%;
     margin-left: -114px;
   }
@@ -546,4 +546,81 @@ footer .about-us a {
 }
 footer .about-us a:hover {
   color: white;
+}
+main .about-section {
+  margin: 40px;
+}
+main .about-section .title-section h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+main .about-section p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+main .all-team {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 50px 0 90px 20px;
+}
+main .all-team .team-section {
+  padding: 40px 0 0 0;
+  margin-bottom: 30px;
+}
+main .all-team .team-section:hover {
+  transform: scale(1.2);
+  background-color: #B0C4DE;
+  box-shadow: 5px 5px 0 0 black;
+}
+main .all-team .team-section .team-img img {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+main .all-team .team-section .team-info h2 {
+  font-size: 2.9rem;
+  padding-top: 20px;
+  font-weight: bold;
+}
+main .all-team .team-section .team-info p {
+  font-size: 2.1rem;
+  padding-top: 10px;
+}
+main .all-team .team-section .social ul li {
+  display: inline-block;
+  margin: 0 0 40px 0;
+  padding: 30px;
+  text-align: center;
+}
+main .all-team .team-section .social ul li .icon a i {
+  font-size: 2.8rem;
+  color: black;
+}
+main .all-team .team-section .social ul li .icon a i:hover {
+  color: white;
+  font-size: 3.1rem;
+}
+main .bottom-container {
+  text-align: center;
+  padding: 20px;
+}
+main .bottom-container h2 {
+  font-size: 4rem;
+  padding: 20px;
+}
+main .bottom-container p {
+  font-size: 2.3rem;
+  padding: 0 0 5px 0;
+}
+main .bottom-container a {
+  font-size: 2.5rem;
+  color: black;
+}
+main .bottom-container a:hover {
+  color: white;
+  font-size: 3rem;
 }

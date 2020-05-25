@@ -13,7 +13,7 @@ main {
                 text-align: center;
                 .font-style-top ();
                 @media @mobile {
-                font-size: 2.1rem;
+                font-size: @font-subtitle-size;
                 width: 120%;
                 margin-left: -30px;
                 }
@@ -59,7 +59,7 @@ main {
                 }
 
                 @media @mobile {
-                    margin: 40px 0 40px -25px;
+                    margin: 10px 0 40px -25px;
                     text-align: center;
                     font-size: 1.8rem;
                     width: 120%;
@@ -75,7 +75,7 @@ main {
         
             
         .img-content {
-            margin: 0 40px 0 100px;
+            margin: 0 60px 0 100px;
             
                 img {
                     width: 95%;
@@ -89,24 +89,20 @@ main {
                         width: 115%;
                         height: 70%;
                         margin: 35px 10px 0 -40px;
-                        
-
                     }
 
                     @media @tablet {
-                        width: 115%;
+                        width: 118%;
                         height: 50%;
-                        margin-left: -95px;  
+                        margin-left: -90px;  
                     }
 
                     @media @mobile {
-                        width: 165%;
+                        width: 180%;
                         height: 100%;
                         margin-left: -114px;
                     }
-                    
                 }
-                
         }
 
         .text-content {
@@ -121,7 +117,7 @@ main {
                 }
 
                 @media @mobile {
-                    font-size: 2.1rem;
+                    font-size: @font-subtitle-size;
                     margin-top: 10px;
                 }
             }
@@ -130,7 +126,7 @@ main {
                     width: 100%;
                 
                     @media @tablet {
-                        font-size: 2.5rem;
+                        font-size: @font-top-size;
                         line-height: 30px;
                     }
 
@@ -204,10 +200,8 @@ main {
                         height: 100%;
                         margin-left: -20px;
                     }
-                    
                 }
-                
-             }
+            }
 
             .text-content {
                 width: 180%;
@@ -221,9 +215,8 @@ main {
                     }
 
                     @media @mobile {
-                        font-size: 2.1rem;
-                    }
-
+                        font-size: @font-subtitle-size;
+                    }   
                 }
 
                 p {
@@ -231,7 +224,7 @@ main {
                     width: 95%;
 
                     @media @tablet {
-                        font-size: 2.5rem;
+                        font-size: @font-top-size;
                         line-height: 30px;
                     }
 
@@ -239,8 +232,6 @@ main {
                         font-size: 2rem;
                         line-height: 25px;
                      }
-                    
-
                 }
 
                 @media @desktop {
@@ -269,7 +260,6 @@ main {
                 display: flex;
                 flex-direction: column;
                 margin: 0 0 -20px 10px;
-                
             }
         }
     }

@@ -1,0 +1,114 @@
+main {
+    .about-section {
+        margin: 40px;
+       
+        .title-section {
+            h1 {
+                font-size: 4rem;
+                text-align: center;
+                padding-bottom: 40px;
+            }
+         }
+        
+             p {
+                font-size: 2.5rem;
+            text-align: center;
+        }
+
+    }
+
+    .all-team {
+    
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 50px 0 90px 20px;
+        
+
+        .team-section {
+            
+            padding: 40px 0 0 0;
+            margin-bottom: 30px;
+            &:hover {
+                transform: scale(1.2);
+                background-color: #B0C4DE;
+                box-shadow: 5px 5px 0 0 black; 
+            }
+
+            .team-img {
+                img {
+                  width: 70%;
+                  height: 70%;
+                  border-radius: 50%;
+                  border: 1px solid black;
+                }
+            }
+
+            .team-info {
+                h2 {
+                  font-size: 2.9rem;
+                  padding-top: 20px;
+                  font-weight: bold;
+                }
+          
+          
+                p {
+                  font-size: 2.1rem;
+                  padding-top: 10px;
+                }
+            }
+
+            .social { 
+    
+                ul li {
+                
+                    display: inline-block;
+                    margin: 0 0 40px 0;
+                    padding: 30px;
+                    text-align: center;
+                 
+                    .icon {
+                 
+                      a {
+                   
+                        i {
+                          font-size: 2.8rem;
+                          color: black;
+                          &:hover {
+                              color: white;
+                              font-size: 3.1rem;
+
+                          }
+                        }
+                      }
+               
+                    }
+                  }
+                }
+            }
+
+        
+    }
+    .bottom-container {
+        text-align: center;
+        padding: 20px;
+        h2 {
+            font-size: 4rem;
+            padding: 20px;
+        }
+        p {
+            font-size: 2.3rem;
+            padding: 0 0 5px 0;
+        }
+        a {
+            font-size: 2.5rem;
+            color: black; 
+           
+            &:hover {
+                color: white;
+                font-size: 3rem;
+            }
+        }
+    }
+}
