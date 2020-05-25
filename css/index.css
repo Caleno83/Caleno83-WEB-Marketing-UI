@@ -497,56 +497,6 @@ main .container .last-container .text-content p {
     margin: 0 0 -20px 10px;
   }
 }
-footer {
-  width: 100%;
-  height: 120px;
-  background-color: #3a506b;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 80px 20px 80px;
-}
-@media (max-width: 500px) {
-  footer {
-    flex-direction: column;
-    heigth: 150px;
-  }
-}
-@media (max-width: 800px) {
-  footer {
-    flex-direction: column;
-    heigth: 150px;
-  }
-}
-footer .footer-sentence h2 {
-  font-weight: 2000;
-  font-size: 2.1rem;
-  font-weight: bold;
-}
-@media (max-width: 500px) {
-  footer .footer-sentence h2 {
-    width: 100%;
-    margin: -8px 0 15px -20px;
-    font-size: 1.8rem;
-    text-align: center;
-  }
-}
-@media (max-width: 800px) {
-  footer .footer-sentence h2 {
-    width: 110%;
-    margin-top: 10px;
-  }
-}
-footer .about-us a {
-  color: black;
-  text-decoration: none;
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-footer .about-us a:hover {
-  color: white;
-}
 main .about-section {
   margin: 40px;
 }
@@ -641,4 +591,54 @@ main .bottom-container a {
 main .bottom-container a:hover {
   color: white;
   font-size: 3rem;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #3a506b;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px 20px 80px;
+}
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    heigth: 150px;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+    heigth: 150px;
+  }
+}
+footer .footer-sentence h2 {
+  font-weight: 2000;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  footer .footer-sentence h2 {
+    width: 100%;
+    margin: -8px 0 15px -20px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  footer .footer-sentence h2 {
+    width: 110%;
+    margin-top: 10px;
+  }
+}
+footer .about-us a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+footer .about-us a:hover {
+  color: white;
 }
