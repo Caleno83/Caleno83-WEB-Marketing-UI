@@ -2,268 +2,210 @@ main {
     margin: -7px 0 -7px 0;
     background-color: @background-container;
     .container {
-        margin: 10px;
-        padding: 60px;
-
-     .top-container {
-       
+      margin: 10px;
+      padding: 60px;
+  
+      .top-container {
         .text-content-main {
-            padding-top: 20px;
-            p {
-                text-align: center;
-                .font-style-top ();
-                @media @mobile {
-                font-size: @font-subtitle-size;
-                width: 120%;
-                margin-left: -30px;
-                }
+          padding-top: 20px;
+          p {
+            text-align: center;
+            .font-style-top ();
+            @media @mobile {
+              font-size: @font-subtitle-size;
+              width: 120%;
+              margin-left: -30px;
             }
+          }
         }
-            
+  
         .bottom {
-            .button-signup (center, 5px);
-                
-               a {
-                    .font-style-top ();
-                        text-decoration: none;
-                        color: @font-signup;
-                     &:hover {
-                        color: #7e8287;
-                    }
-                    @media @mobile {
-                        font-size: 2.2rem;
-                    }
-                }
+          .button-signup (center, 5px);
+  
+          a {
+            .font-style-top ();
+            text-decoration: none;
+            color: @font-signup;
+            &:hover {
+              color: #7e8287;
             }
             @media @mobile {
-                    margin-top: -10px;
+              font-size: 2.2rem;
             }
-        }
-        
-        .title-middle-container {
-            
-         h2 {
-                font-size: @font-subtitle-size;
-                font-weight: @font-bold;
-                margin: 120px 0 80px 15px;
-
-                @media @desktop {
-                    margin-top: 80px;
-                    text-align: center;
-                }
-
-                @media @tablet {
-                    margin-top: 50px;
-                    font-size: 2.2rem;
-                    width: 100%;
-                }
-
-                @media @mobile {
-                    margin: 10px 0 40px -25px;
-                    text-align: center;
-                    font-size: 1.8rem;
-                    width: 120%;
-                }
-            }
-        }
-        
-        .middle-container {
-            width: 100%;
-            margin: 0 20px 0 20px;
-            display: flex;
-            flex-direction: row-reverse;
-        
-            
-        .img-content {
-            margin: 0 60px 0 100px;
-            
-                img {
-                    width: 95%;
-                    height: 70%;
-                    border-radius: 5px;
-                    &:hover {
-                        opacity: 80%;
-                    }
-
-                    @media @desktop {
-                        width: 115%;
-                        height: 70%;
-                        margin: 35px 10px 0 -40px;
-                    }
-
-                    @media @tablet {
-                        width: 118%;
-                        height: 50%;
-                        margin-left: -90px;  
-                    }
-
-                    @media @mobile {
-                        width: 180%;
-                        height: 100%;
-                        margin-left: -114px;
-                    }
-                }
-        }
-
-        .text-content {
-            width: 400%;
-            margin-top: 5px;
-                
-            h3 {
-                .font-style-subtitles();
-                
-                @media @tablet {
-                    font-size: 2.4rem;
-                }
-
-                @media @mobile {
-                    font-size: @font-subtitle-size;
-                    margin-top: 10px;
-                }
-            }
-            p {
-                .font-style-paragraphs();
-                    width: 100%;
-                
-                    @media @tablet {
-                        font-size: @font-top-size;
-                        line-height: 30px;
-                    }
-
-                    @media @mobile {
-                        font-size: 2rem;
-                        line-height: 25px;
-
-                     }
-            }
-
-            @media @desktop {
-                width: 600%;
-                margin: 40px 20px 50px 20px;
-            }
-            
-
-            @media @tablet {
-                width: 100%;
-                margin: 50px 0 70px -20px;
-            }
-
-            @media @mobile {
-                width: 110%;
-                margin: 20px 0 10px -25px;
-            }
-
-        }
-        
-        @media @tablet {
-            display: flex;
-            flex-direction: column;
-            padding-left: 15px;
+          }
         }
         @media @mobile {
-            display: flex;
-            flex-direction: column;
-            margin: 20px 0 30px 15px;
+          margin-top: -10px;
         }
-    }
-       
-        .last-container {
+      }
+  
+      .title-middle-container {
+        h2 {
+          font-size: @font-subtitle-size;
+          font-weight: @font-bold;
+          margin: 120px 0 80px 15px;
+  
+          @media @desktop {
+            margin-top: 80px;
+            text-align: center;
+          }
+  
+          @media @tablet {
+            margin-top: 50px;
+            font-size: 2.2rem;
             width: 100%;
-            margin: 0 20px 0 20px;
-            display: flex;
-
-            .img-content {
-
-                img {
-                     width: 70%;
-                     height: 80%;
-                     border-radius: 5px;
-                     &:hover {
-                        opacity: 80%;
-                    }
-
-                    @media @desktop {
-                        width: 90%;
-                        height: 70%;
-                        margin: 40px 20px 50px 10px;
-                    }
-
-
-                    @media @tablet {
-                        width: 90%;
-                        height: 50%;
-                        margin-left: 5px;  
-                    }
-                    
-                    @media @mobile {
-                        width: 100%;
-                        height: 100%;
-                        margin-left: -20px;
-                    }
-                }
-            }
-
-            .text-content {
-                width: 180%;
-                margin: 20px 30px 0 -100px;
-                
-                h3 {
-                    .font-style-subtitles();
-
-                    @media @tablet {
-                        font-size: 2.4rem;
-                    }
-
-                    @media @mobile {
-                        font-size: @font-subtitle-size;
-                    }   
-                }
-
-                p {
-                    .font-style-paragraphs();
-                    width: 95%;
-
-                    @media @tablet {
-                        font-size: @font-top-size;
-                        line-height: 30px;
-                    }
-
-                    @media @mobile {
-                        font-size: 2rem;
-                        line-height: 25px;
-                     }
-                }
-
-                @media @desktop {
-                    width: 300%;
-                    margin: 50px 20px 50px 60px;
-                }
-                
-                @media @tablet {
-                    width: 105%;
-                    margin: 5px 0 30px -20px;
-                }
-
-                @media @mobile {
-                   width: 115%;
-                   margin: -10px 0 30px -30px;
-                }
-            }
-
-            @media @tablet {
-                display: flex;
-                flex-direction: column;
-                padding-left: 15px;
-            }
-
-            @media @mobile {
-                display: flex;
-                flex-direction: column;
-                margin: 0 0 -20px 10px;
-            }
+          }
+  
+          @media @mobile {
+            margin: 40px 0 20px -25px;
+            text-align: center;
+            font-size: 1.8rem;
+            width: 120%;
+          }
         }
+      }
+  
+      .section-container {
+        width: 100%;
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: row-reverse;
+  
+        .img-content {
+          margin: 0 60px 0 100px;
+  
+          img {
+            width: 95%;
+            height: 70%;
+            border-radius: 5px;
+            &:hover {
+              opacity: 80%;
+            }
+  
+            @media @desktop {
+              width: 115%;
+              height: 85%;
+              margin: 35px 10px 0 -40px;
+            }
+  
+            @media @tablet {
+              width: 115%;
+              height: 90%;
+              margin-left: -90px;
+            }
+  
+            @media @mobile {
+              width: 180%;
+              height: 100%;
+              margin-left: -107px;
+            }
+          }
+        }
+  
+        .text-content {
+          width: 400%;
+          margin-top: 5px;
+  
+          h3 {
+            @media @mobile {
+              font-size: @font-subtitle-size;
+              margin-top: 10px;
+            }
+          }
+          p {
+            width: 100%;
+          }
+  
+          @media @desktop {
+            width: 600%;
+            margin: 40px 20px 50px 20px;
+          }
+  
+          @media @tablet {
+            width: 100%;
+            margin: 50px 0 70px -20px;
+          }
+  
+          @media @mobile {
+            width: 110%;
+            margin: 20px 0 10px -25px;
+          }
+        }
+  
+        @media @tablet {
+          .flex-column ();
+          padding-left: 15px;
+        }
+        @media @mobile {
+          .flex-column ();
+          margin: 20px 0 30px 15px;
+        }
+      }
+  
+      .last-container {
+        display: flex;
+  
+        .img-content {
+          img {
+            width: 70%;
+            height: 80%;
+  
+            @media @desktop {
+              width: 90%;
+  
+              margin: 40px 20px 50px 10px;
+            }
+  
+            @media @tablet {
+              width: 85%;
+  
+              margin-left: 25px;
+            }
+  
+            @media @mobile {
+              width: 100%;
+  
+              margin-left: -3px;
+            }
+          }
+        }
+  
+        .text-content {
+          width: 180%;
+          margin: 20px 30px 0 -100px;
+  
+          p {
+            width: 95%;
+          }
+  
+          @media @desktop {
+            width: 300%;
+            margin: 50px 20px 50px 60px;
+          }
+  
+          @media @tablet {
+            width: 105%;
+            margin: 5px 0 30px -20px;
+          }
+  
+          @media @mobile {
+            width: 115%;
+            margin: -10px 0 30px -30px;
+          }
+        }
+  
+        @media @tablet {
+          .flex-column ();
+          padding-left: 15px;
+        }
+  
+        @media @mobile {
+          .flex-column ();
+          margin: 0 0 -20px 10px;
+        }
+      }
     }
-}
+  }
 
 
 

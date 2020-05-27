@@ -139,12 +139,32 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-p {
-  font-size: 1.8rem;
+.text-content h3 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
-h2,
-h3 {
-  font-size: 1.8rem;
+@media (max-width: 800px) {
+  .text-content h3 {
+    font-size: 2.4rem;
+  }
+}
+.text-content p {
+  font-size: 1.9rem;
+  line-height: 23px;
+}
+@media (max-width: 800px) {
+  .text-content p {
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .text-content p {
+    font-size: 2rem;
+    line-height: 25px;
+  }
 }
 header {
   width: 100%;
@@ -282,188 +302,126 @@ main .container .title-middle-container h2 {
 }
 @media (max-width: 500px) {
   main .container .title-middle-container h2 {
-    margin: 10px 0 40px -25px;
+    margin: 40px 0 20px -25px;
     text-align: center;
     font-size: 1.8rem;
     width: 120%;
   }
 }
-main .container .middle-container {
+main .container .section-container {
   width: 100%;
   margin: 0 20px 0 20px;
   display: flex;
   flex-direction: row-reverse;
 }
-main .container .middle-container .img-content {
+main .container .section-container .img-content {
   margin: 0 60px 0 100px;
 }
-main .container .middle-container .img-content img {
+main .container .section-container .img-content img {
   width: 95%;
   height: 70%;
   border-radius: 5px;
 }
-main .container .middle-container .img-content img:hover {
+main .container .section-container .img-content img:hover {
   opacity: 80%;
 }
 @media (max-width: 1400px) {
-  main .container .middle-container .img-content img {
+  main .container .section-container .img-content img {
     width: 115%;
-    height: 70%;
+    height: 85%;
     margin: 35px 10px 0 -40px;
   }
 }
 @media (max-width: 800px) {
-  main .container .middle-container .img-content img {
-    width: 118%;
-    height: 50%;
+  main .container .section-container .img-content img {
+    width: 115%;
+    height: 90%;
     margin-left: -90px;
   }
 }
 @media (max-width: 500px) {
-  main .container .middle-container .img-content img {
+  main .container .section-container .img-content img {
     width: 180%;
     height: 100%;
-    margin-left: -114px;
+    margin-left: -107px;
   }
 }
-main .container .middle-container .text-content {
+main .container .section-container .text-content {
   width: 400%;
   margin-top: 5px;
 }
-main .container .middle-container .text-content h3 {
-  font-size: 2.1rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-@media (max-width: 800px) {
-  main .container .middle-container .text-content h3 {
-    font-size: 2.4rem;
-  }
-}
 @media (max-width: 500px) {
-  main .container .middle-container .text-content h3 {
+  main .container .section-container .text-content h3 {
     font-size: 2.1rem;
     margin-top: 10px;
   }
 }
-main .container .middle-container .text-content p {
-  font-size: 1.9rem;
-  line-height: 23px;
+main .container .section-container .text-content p {
   width: 100%;
 }
-@media (max-width: 800px) {
-  main .container .middle-container .text-content p {
-    font-size: 2.5rem;
-    line-height: 30px;
-  }
-}
-@media (max-width: 500px) {
-  main .container .middle-container .text-content p {
-    font-size: 2rem;
-    line-height: 25px;
-  }
-}
 @media (max-width: 1400px) {
-  main .container .middle-container .text-content {
+  main .container .section-container .text-content {
     width: 600%;
     margin: 40px 20px 50px 20px;
   }
 }
 @media (max-width: 800px) {
-  main .container .middle-container .text-content {
+  main .container .section-container .text-content {
     width: 100%;
     margin: 50px 0 70px -20px;
   }
 }
 @media (max-width: 500px) {
-  main .container .middle-container .text-content {
+  main .container .section-container .text-content {
     width: 110%;
     margin: 20px 0 10px -25px;
   }
 }
 @media (max-width: 800px) {
-  main .container .middle-container {
+  main .container .section-container {
     display: flex;
     flex-direction: column;
     padding-left: 15px;
   }
 }
 @media (max-width: 500px) {
-  main .container .middle-container {
+  main .container .section-container {
     display: flex;
     flex-direction: column;
     margin: 20px 0 30px 15px;
   }
 }
 main .container .last-container {
-  width: 100%;
-  margin: 0 20px 0 20px;
   display: flex;
 }
 main .container .last-container .img-content img {
   width: 70%;
   height: 80%;
-  border-radius: 5px;
-}
-main .container .last-container .img-content img:hover {
-  opacity: 80%;
 }
 @media (max-width: 1400px) {
   main .container .last-container .img-content img {
     width: 90%;
-    height: 70%;
     margin: 40px 20px 50px 10px;
   }
 }
 @media (max-width: 800px) {
   main .container .last-container .img-content img {
-    width: 90%;
-    height: 50%;
-    margin-left: 5px;
+    width: 85%;
+    margin-left: 25px;
   }
 }
 @media (max-width: 500px) {
   main .container .last-container .img-content img {
     width: 100%;
-    height: 100%;
-    margin-left: -20px;
+    margin-left: -3px;
   }
 }
 main .container .last-container .text-content {
   width: 180%;
   margin: 20px 30px 0 -100px;
 }
-main .container .last-container .text-content h3 {
-  font-size: 2.1rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-@media (max-width: 800px) {
-  main .container .last-container .text-content h3 {
-    font-size: 2.4rem;
-  }
-}
-@media (max-width: 500px) {
-  main .container .last-container .text-content h3 {
-    font-size: 2.1rem;
-  }
-}
 main .container .last-container .text-content p {
-  font-size: 1.9rem;
-  line-height: 23px;
   width: 95%;
-}
-@media (max-width: 800px) {
-  main .container .last-container .text-content p {
-    font-size: 2.5rem;
-    line-height: 30px;
-  }
-}
-@media (max-width: 500px) {
-  main .container .last-container .text-content p {
-    font-size: 2rem;
-    line-height: 25px;
-  }
 }
 @media (max-width: 1400px) {
   main .container .last-container .text-content {

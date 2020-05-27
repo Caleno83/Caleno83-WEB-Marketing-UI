@@ -1,27 +1,45 @@
 html {
-    font-size: 62.5%;
-    font-family: 'Cormorant Garamond', serif;
-  
-  }
-  
-  * {
-    box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  //this is the desktop screen size
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+ }
+
+
+.text-content {
+   h3 {
+    .font-style-subtitles();
+    @media @tablet {
+      font-size: 2.4rem;
+    }
   }
 
-  body {
-    //this is the desktop screen size
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
+   p {
+    .font-style-paragraphs();
+       @media @tablet {
+          font-size: @font-top-size;
+          line-height: 30px;
+        }
+
+      @media @mobile {
+          font-size: 2rem;
+          line-height: 25px;
+      }
    }
+}
 
-  p {
-    font-size: 1.8rem;
-  }
 
-  h2, h3 {
-    font-size: 1.8rem;
-  }
+
 
 
   
