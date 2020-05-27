@@ -22,15 +22,18 @@ footer {
             font-weight: 2000;
             font-size: 2.1rem;
             font-weight: @font-bold;
+            text-align: center;
+            
             @media @mobile {
                 width: 100%;
                 margin: -8px 0 15px -20px;
                 font-size: 1.8rem;
-                text-align: center;
+                
             }
             @media @tablet {
                 width: 110%;
-                margin-top: 10px;
+                margin: 10px 0 15px -30px;
+                
             }
         }
     }
@@ -41,7 +44,11 @@ footer {
             font-size: 2.4rem;
             font-weight: @font-bold;
             &:hover {
-                color: white;
+                color: white;      
+            }
+
+            @media @mobile {
+                margin-left: -20px;
             }
         }
         

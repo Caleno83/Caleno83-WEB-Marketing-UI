@@ -407,7 +407,7 @@ main .container .last-container .img-content img {
 @media (max-width: 800px) {
   main .container .last-container .img-content img {
     width: 85%;
-    margin-left: 25px;
+    margin-left: 35px;
   }
 }
 @media (max-width: 500px) {
@@ -432,13 +432,13 @@ main .container .last-container .text-content p {
 @media (max-width: 800px) {
   main .container .last-container .text-content {
     width: 105%;
-    margin: 5px 0 30px -20px;
+    margin: 5px 0 30px -2px;
   }
 }
 @media (max-width: 500px) {
   main .container .last-container .text-content {
     width: 115%;
-    margin: -10px 0 30px -30px;
+    margin: -10px 0 30px -25px;
   }
 }
 @media (max-width: 800px) {
@@ -576,19 +576,19 @@ footer .footer-sentence h2 {
   font-weight: 2000;
   font-size: 2.1rem;
   font-weight: bold;
+  text-align: center;
 }
 @media (max-width: 500px) {
   footer .footer-sentence h2 {
     width: 100%;
     margin: -8px 0 15px -20px;
     font-size: 1.8rem;
-    text-align: center;
   }
 }
 @media (max-width: 800px) {
   footer .footer-sentence h2 {
     width: 110%;
-    margin-top: 10px;
+    margin: 10px 0 15px -30px;
   }
 }
 footer .about-us a {
@@ -599,4 +599,9 @@ footer .about-us a {
 }
 footer .about-us a:hover {
   color: white;
+}
+@media (max-width: 500px) {
+  footer .about-us a {
+    margin-left: -20px;
+  }
 }
