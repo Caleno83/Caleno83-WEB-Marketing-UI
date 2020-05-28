@@ -285,7 +285,7 @@ main .container .top-container .bottom a:hover {
 main .container .title-middle-container h2 {
   font-size: 2.1rem;
   font-weight: bold;
-  margin: 120px 0 80px 15px;
+  margin: 140px 0 50px 5px;
 }
 @media (max-width: 1400px) {
   main .container .title-middle-container h2 {
@@ -302,7 +302,7 @@ main .container .title-middle-container h2 {
 }
 @media (max-width: 500px) {
   main .container .title-middle-container h2 {
-    margin: 40px 0 20px -25px;
+    margin: 40px 0 20px -30px;
     text-align: center;
     font-size: 1.8rem;
     width: 120%;
@@ -335,14 +335,13 @@ main .container .section-container .img-content img:hover {
 @media (max-width: 800px) {
   main .container .section-container .img-content img {
     width: 115%;
-    height: 90%;
-    margin-left: -90px;
+    height: 80%;
+    margin-left: -85px;
   }
 }
 @media (max-width: 500px) {
   main .container .section-container .img-content img {
     width: 180%;
-    height: 100%;
     margin-left: -107px;
   }
 }
@@ -397,10 +396,15 @@ main .container .last-container {
 main .container .last-container .img-content img {
   width: 70%;
   height: 80%;
+  border-radius: 5px;
+}
+main .container .last-container .img-content img:hover {
+  opacity: 80%;
 }
 @media (max-width: 1400px) {
   main .container .last-container .img-content img {
     width: 90%;
+    height: 85%;
     margin: 40px 20px 50px 10px;
   }
 }
@@ -437,7 +441,7 @@ main .container .last-container .text-content p {
 }
 @media (max-width: 500px) {
   main .container .last-container .text-content {
-    width: 115%;
+    width: 120%;
     margin: -10px 0 30px -25px;
   }
 }
