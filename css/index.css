@@ -136,7 +136,6 @@ html {
 }
 body {
   max-width: 1400px;
-  width: 100%;
   margin: 0 auto;
 }
 .text-content h3 {
@@ -238,7 +237,7 @@ header .bottom:hover {
 }
 main {
   margin: -7px 0 -7px 0;
-  background-color: #0c5e50;
+  background-color: white;
 }
 main .container {
   margin: 10px;
@@ -319,7 +318,7 @@ main .container .section-container .img-content {
 }
 main .container .section-container .img-content img {
   width: 95%;
-  height: 80%;
+  height: 75%;
   border-radius: 5px;
 }
 main .container .section-container .img-content img:hover {
@@ -373,7 +372,7 @@ main .container .section-container .text-content p {
 @media (max-width: 500px) {
   main .container .section-container .text-content {
     width: 110%;
-    margin: 20px 0 10px -25px;
+    margin: 20px 0 10px -30px;
   }
 }
 @media (max-width: 800px) {
@@ -424,10 +423,11 @@ main .container .last-container .img-content img:hover {
 }
 main .container .last-container .text-content {
   width: 180%;
-  margin: 20px 30px 0 -100px;
+  margin: 10px 30px 0 -100px;
+  padding-top: 10px;
 }
 main .container .last-container .text-content p {
-  width: 95%;
+  width: 97%;
 }
 @media (max-width: 1400px) {
   main .container .last-container .text-content {
@@ -444,7 +444,7 @@ main .container .last-container .text-content p {
 @media (max-width: 500px) {
   main .container .last-container .text-content {
     width: 120%;
-    margin: -10px 0 30px -25px;
+    margin: -38px 0 30px -25px;
   }
 }
 @media (max-width: 800px) {
@@ -496,6 +496,7 @@ main .all-team {
 @media (max-width: 500px) {
   main .all-team {
     padding-top: 20px;
+    margin-left: -10px;
   }
 }
 main .all-team .team-section {
@@ -542,15 +543,26 @@ main .bottom-container {
 }
 main .bottom-container h2 {
   font-size: 4rem;
-  padding: 20px;
+  padding: 0 0 15px 20px;
+}
+@media (max-width: 500px) {
+  main .bottom-container {
+    margin-left: -1px;
+  }
+}
+@media (max-width: 800px) {
+  main .bottom-container {
+    margin-left: -12px;
+  }
 }
 main .bottom-container p {
   font-size: 2.3rem;
-  padding: 0 0 5px 0;
+  padding: 0 0 5px 20px;
 }
 main .bottom-container a {
   font-size: 2.5rem;
   color: black;
+  padding: 10px 0 0 25px;
 }
 main .bottom-container a:hover {
   color: white;
@@ -587,14 +599,15 @@ footer .footer-sentence h2 {
 @media (max-width: 500px) {
   footer .footer-sentence h2 {
     width: 100%;
-    margin: -8px 0 15px -20px;
+    margin: -8px 0 15px 40px;
     font-size: 1.8rem;
+    padding-left: 40px;
   }
 }
 @media (max-width: 800px) {
   footer .footer-sentence h2 {
     width: 110%;
-    margin: 10px 0 15px -30px;
+    margin: 10px 0 15px -28px;
   }
 }
 footer .about-us a {
@@ -608,6 +621,11 @@ footer .about-us a:hover {
 }
 @media (max-width: 500px) {
   footer .about-us a {
-    margin-left: -20px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 800px) {
+  footer .about-us a {
+    margin-left: 10px;
   }
 }

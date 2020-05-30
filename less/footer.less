@@ -26,13 +26,14 @@ footer {
             
             @media @mobile {
                 width: 100%;
-                margin: -8px 0 15px -20px;
+                margin: -8px 0 15px 40px;
                 font-size: 1.8rem;
+                padding-left: 40px;
                 
             }
             @media @tablet {
                 width: 110%;
-                margin: 10px 0 15px -30px;
+                margin: 10px 0 15px -28px;
                 
             }
         }
@@ -43,14 +44,19 @@ footer {
             text-decoration: none;
             font-size: 2.4rem;
             font-weight: @font-bold;
+            
             &:hover {
                 color: white;      
             }
 
             @media @mobile {
-                margin-left: -20px;
+                margin-left: 10px;
+            }
+
+            @media @tablet {
+                margin-left: 10px;
             }
         }
-        
     }
+   
 }
