@@ -1,0 +1,110 @@
+body{
+    font-family: @main-font;
+    background-color: @main-white;
+
+    #active-page{
+        border-bottom: 2px solid @nav-blue;
+    }
+
+    .main-container{
+        max-width: 1300px;
+        margin: auto;
+
+        .welcome{
+            margin-top: 100px;
+            font-size: 1.2rem;
+            color: @main-font-color;
+
+            p{
+                padding: 2%;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .tag{
+            text-align: center;
+            color: @main-font-color;
+            text-transform: uppercase;
+            font-size: 3rem;
+        }
+
+        i{
+            padding: 10px;
+        }
+
+        @media @desktop{
+            margin: auto;
+        }
+
+
+
+        .hero-pic{
+            margin-top: 3%;
+
+        }
+        .text-container{
+            margin: 1%;
+
+            @media @tablet{
+                margin: 3%
+            }
+
+            @media @desktop{
+                margin: 5%
+            }
+        }
+
+        .feature-container{
+            color: @main-white;
+            text-align: center;
+            font-size: 1.2rem;
+
+        h2{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        p{
+            font-style: italic;
+            font-weight: 500;
+        }
+        @media @tablet{
+            display: flex;
+            margin: 3%;
+            font-size: 1rem;
+            .end-feat{
+                margin: 15px 0;
+            }
+        }
+
+        .end-feat{
+            background-color: #3472FF;
+            padding: 5%;
+        }
+        
+        .mid-feat{
+            background-color: @sec-color;
+            padding: 5%;
+        }
+            .end-feat, .mid-feat{
+                box-shadow: 3px 3px 5px gray;
+            
+                @media @tablet{
+                    padding: 2.5%;
+                    flex: 1 1 0;
+                }
+            }
+        }
+    }
+
+    footer{
+        p{
+            text-align: center;
+            padding: 12%;
+            background-color: @footer-color;
+        }
+    }
+}

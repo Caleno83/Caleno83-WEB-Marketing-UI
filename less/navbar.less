@@ -1,0 +1,47 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: @main-white;
+    font-size: 1rem;
+    padding: 15px;
+    font-family: @main-font;
+    box-shadow: 2px 1px 5px gray;
+
+    h1{
+        
+        color: @nav-blue;
+        font-weight: 800;
+        }
+
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 640px;
+
+
+
+        a{
+            text-decoration: none;
+            padding: 1.5% 3%;
+        }
+        a:visited{
+            color: @nav-blue;
+        }
+    }
+
+    #signup{
+        border: 1px solid rgb(219, 219, 219);
+        background-color: @sec-color;
+        border-radius: 6px;
+        color: @main-white;
+        margin:2px;
+        font-weight: 600;
+    }
+    
+}
